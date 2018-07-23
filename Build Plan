@@ -1,0 +1,44 @@
+#Background
+Model data
+?Standard terrain
+
+#Input
+Match Settings
+	Number of players
+	Players per game
+		Custom game sides (asymmetrical battles)
+	Number of army lists per player
+	Size of detachments
+		Custom detachment sizes (asymmetrical battles)
+	Number of detachments per player
+		Custom dtachment amounts (assymetrical battles)
+Player names
+Player faction select
+doubles/multiplayer/team declarations
+Player list load
+Pairing Settings
+	Swiss
+	single elimination
+	double elimination
+	seeding
+Pair offs (n)
+	Map initialization
+	Team/multiplayer things (pair offs)
+	Player list select
+	Pre game declarations
+	Sides/Going First
+	Clock start
+	Predeploy/Theme walls, etc.
+	Deployment ?multi detachment?
+	Advance deploy
+	Advance move
+	?Declare prey
+	Play rounds (7)
+		Play Turns
+			Maintenance
+			Control
+			Activations
+				Declare model/unit
+				
+Input settings saving
+Player saves
