@@ -1,0 +1,123 @@
+{
+	"PIP6":410010
+	"name":"Eiryss, Mage Hunter of Ios",
+	"PC":7,
+	"FA":1,
+	"character":true,
+	"faction":[
+		{"active":[ "Mercenary", "Retribution" ] },
+		{"passive":[ "Cygnar", "Khador", "Protectorate" ] }
+	],
+	"tags":[ "Solo" ],
+	"composition":[
+		{ "sname":"Eiryss", "iteration":1,
+		"SPD":7, "STR":4, "MAT":6, "RAT":9, "DEF":16, "ARM":12, "CMD":9, "base":30, "boxes":5, "FOC":0, "FUR":0, "thresh":0, "MA":0,
+		"advantages":[ "AD", "pathfinder", "stealth" ],
+		"weapons":[ "xxidcrossbow", "xxidbayonet", "xxidsaber"],
+		"specialrules":[]
+		}
+		]
+	}
+	
+{
+	"PIP6":XXXXX0
+	"name":"Xerxis, Fury of Halaak",
+	"PC":-28,
+	"FA":1,
+	"character":true,
+	"faction":[
+		{"active":[ "Skorne" ] },
+		{"passive":[] }
+	],
+	"tags":[ "Warlock", "Battle Engine" ],
+	"composition":[
+		{ "sname":"Xerxis", "iteration":2, "rank":"officer",
+		"SPD":7, "STR":8, "MAT":8, "RAT":4, "DEF":13, "ARM":19, "CMD":10, "base":120, "boxes":19, "FOC":0, "FUR":5, "thresh":0, "MA":0,
+		"advantages":[ "cavalry", "pathfinder", "tough" ],
+		"weapons":[ "xxidlamentor", "xxidwarstandard", "xxidmount" ],
+		"specialrules":[ "FieldMarshall2spd", "Sprint", "Trample", "XerxisFeat" ],
+		"spells":[ "Ignite", "Rapport", "Stranglehold" ]
+		}
+		]
+	}
+
+{
+	"PIP6":410280
+	"name":"Alexia Ciannor & the Risen",
+	"PC":[ { "Min":10 } ],
+	"FA":1,
+	"character":true,
+	"faction":[
+		{"active":[ "Mercenary" ] },
+		{"passive":[ "Khador", "Cygnar", ] }
+	],
+	"tags":[ "Unit" ],
+	"composition":[
+		{ "sname":"Alexia", "iteration":1, "rank":"officer",
+		"SPD":6, "STR":4, "MAT":6, "RAT":5, "DEF":144, "ARM":14, "CMD":9, "base":30, "boxes":5, "FOC":0, "FUR":0, "thresh":0, "MA":8,
+		"amount":[ { "min":1 } ],
+		"weapons":[ "xxidhandcannon", "xxidwitchfire"],
+		"specialrules":[ "Death Magic", "spell ward granted", "stir the dead" ],
+		"spells":[ "craft rune thrall", "dominate undead" ]
+		},
+		{ "sname":"Risen Grunts", "iteration":0, "rank":"grunt",
+		"SPD":6, "STR":5, "MAT":4, "RAT":3, "DEF":10, "ARM":11, "CMD":3, "base":30, "boxes":1, "FOC":0, "FUR":0, "thresh":0, "MA":0,
+		"amount":[ { "min":9 } ],
+		"weapons":[ "xxidclaws" ],
+		"specialrules":[ "CMA", "Undead" ],
+		"spells":[]
+		}
+		]
+	}
+
+{
+	"PIP6":320360
+	"name":"Exemplar Errants",
+	"PC":[ { "Min":10, "Max":16 } ],
+	"FA":3,
+	"character":false,
+	"faction":[
+		{"active":[ "Protectorate", "Llaelese" ] },
+		{"passive":[] }
+	],
+	"tags":[ "Unit" ],
+	"composition":[
+		{ "sname":"Leader & Grunts", "iteration":0, "rank":"grunt",
+		"SPD":5, "STR":6, "MAT":7, "RAT":6, "DEF":12, "ARM":16, "CMD":8, "base":30, "boxes":1, "FOC":0, "FUR":0, "thresh":0, "MA":0,
+		"amount":[ { "min":10 } ],
+		"weapons":[ "xxidheavycrossbow", "xxidsword" ],
+		"specialrules":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder" ],
+		"spells":[]
+		}
+		]
+	}
+	
+{
+	"PIP6":320660
+	"name":"Exemplar Errants",
+	"PC":[ { "Min":4 } ],
+	"FA":3,
+	"character":false,
+	"faction":[
+		{"active":[ "Protectorate", "Llaelese" ] },
+		{"passive":[] }
+	],
+	"tags":[ "Command Attachment" ],
+	"composition":[
+		{ "sname":"Officer", "iteration":0, "rank":"Officer",
+		"SPD":5, "STR":6, "MAT":8, "RAT":7, "DEF":12, "ARM":16, "CMD":8, "base":30, "boxes":5, "FOC":0, "FUR":0, "thresh":0, "MA":0,
+		"amount":[ { "min":1 } ],
+		"weapons":[ "xxidheavycrossbow", "xxidsword" ],
+		"specialrules":[ "Self-Sacrifice", "Mark Targer", "Purity", "Quick Work Tactics" ],
+		"spells":[]
+		}
+		{ "sname":"Standard Bearer", "iteration":0, "rank":"grunt",
+		"SPD":5, "STR":6, "MAT":7, "RAT":6, "DEF":12, "ARM":16, "CMD":8, "base":30, "boxes":1, "FOC":0, "FUR":0, "thresh":0, "MA":0,
+		"amount":[ { "min":10 } ],
+		"weapons":[ "xxidheavycrossbow", "xxidsword" ],
+		"specialrules":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder", "Standard Bearer", "Take Up" ],
+		"spells":[]
+		}
+		]
+	}
+		
