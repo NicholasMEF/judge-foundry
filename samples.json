@@ -84,9 +84,13 @@
 	"composition":[
 		{ "sname":"Leader & Grunts", "iteration":0, "rank":"grunt",
 		"SPD":5, "STR":6, "MAT":7, "RAT":6, "DEF":12, "ARM":16, "CMD":8, "base":30, "boxes":1, "FOC":0, "FUR":0, "thresh":0, "MA":0,
-		"amount":[ { "min":10 } ],
+		"amount":[ { "Min":6, "Max":10 } ],
 		"weapons":[ "xxidheavycrossbow", "xxidsword" ],
-		"specialrules":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder" ],
+		"specialrules":[ {
+			"Static":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder" ],
+			"Granted":[],
+			"Tactics":[]
+			} ],
 		"spells":[]
 		}
 		]
@@ -94,7 +98,7 @@
 	
 {
 	"PIP6":320660
-	"name":"Exemplar Errants",
+	"name":"Exemplar Errants Officer & Standard",
 	"PC":[ { "Min":4 } ],
 	"FA":3,
 	"character":false,
@@ -104,18 +108,26 @@
 	],
 	"tags":[ "Command Attachment" ],
 	"composition":[
-		{ "sname":"Officer", "iteration":0, "rank":"Officer",
+		{ "sname":"Officer", "iteration":0, "rank":"officer",
 		"SPD":5, "STR":6, "MAT":8, "RAT":7, "DEF":12, "ARM":16, "CMD":8, "base":30, "boxes":5, "FOC":0, "FUR":0, "thresh":0, "MA":0,
-		"amount":[ { "min":1 } ],
+		"amount":[ { "Min":1 } ],
 		"weapons":[ "xxidheavycrossbow", "xxidsword" ],
-		"specialrules":[ "Self-Sacrifice", "Mark Targer", "Purity", "Quick Work Tactics" ],
+		"specialrules":[ {
+			"Static":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder", "Purity", "Mark Target" ],
+			"Granted":[],
+			"Tactics":[ "Quick Work" ]
+			} ],
 		"spells":[]
 		}
 		{ "sname":"Standard Bearer", "iteration":0, "rank":"grunt",
 		"SPD":5, "STR":6, "MAT":7, "RAT":6, "DEF":12, "ARM":16, "CMD":8, "base":30, "boxes":1, "FOC":0, "FUR":0, "thresh":0, "MA":0,
-		"amount":[ { "min":10 } ],
+		"amount":[ { "Min":1 } ],
 		"weapons":[ "xxidheavycrossbow", "xxidsword" ],
-		"specialrules":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder", "Standard Bearer", "Take Up" ],
+		"specialrules":[ {
+			"Static":[ "Self-Sacrifice", "Advance Deploy", "Pathfinder", "Standard Bearer", "Take Up" ],
+			"Granted":[],
+			"Tactics":[]
+			} ],
 		"spells":[]
 		}
 		]
