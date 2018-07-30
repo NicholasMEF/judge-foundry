@@ -1,5 +1,5 @@
 {
-	"PIP6":410010
+	"PIP6":410010,
 	"name":"Eiryss, Mage Hunter of Ios",
 	"PC":7,
 	"FA":1,
@@ -20,7 +20,7 @@
 	}
 	
 {
-	"PIP6":XXXXX0
+	"PIP6":XXXXX0,
 	"name":"Xerxis, Fury of Halaak",
 	"PC":-28,
 	"FA":1,
@@ -42,7 +42,7 @@
 	}
 
 {
-	"PIP6":410280
+	"PIP6":410280,
 	"name":"Alexia Ciannor & the Risen",
 	"PC":[ { "Min":10 } ],
 	"FA":1,
@@ -71,7 +71,7 @@
 	}
 
 {
-	"PIP6":320360
+	"PIP6":320360,
 	"name":"Exemplar Errants",
 	"PC":[ { "Min":10, "Max":16 } ],
 	"FA":3,
@@ -97,7 +97,7 @@
 	}
 	
 {
-	"PIP6":320660
+	"PIP6":320660,
 	"name":"Exemplar Errants Officer & Standard",
 	"PC":[ { "Min":4 } ],
 	"FA":3,
